@@ -1,8 +1,15 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "stylua.targetReleaseVersion": "latest",
+    "stylua.disableVersionCheck": true,
+    "stylua.searchBinaryInPATH": true,
+    "[lua]": {
+      "editor.defaultFormatter": "JohnnyMorganz.stylua",
+    },
+  },
 }
